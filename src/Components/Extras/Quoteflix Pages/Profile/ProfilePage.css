@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.profilewrapper{
+  width: auto;
+  height: auto;
+  background:dimgray;
+  padding: 0px 50px 40px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.profileimgbrand{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  color: antiquewhite;
+  font-size: 20px;
+  clip-path: inset(0 3ch 0 0);
+  animation: l4 1s steps(4) infinite;
+}
+
+.loader:before {
+  content: "...";
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.profiletitle {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+.data {
+  margin: 10px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.btn{
+	text-align: center;
+}
+
+.profilebutton {
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 25px;
+  width: 30%;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: black;
+  border: 2px solid black;
+}
+
+.profilebutton:hover {
+	background-color: dimgray; 
+	color: antiquewhite; 
+	border: 2px solid antiquewhite;
+  }
+
+  .fetchingdata{
+  margin: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  color: antiquewhite;
+  }
+
+  .fetchingloader-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 50px;
+  }

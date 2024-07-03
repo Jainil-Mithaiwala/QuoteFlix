@@ -1,0 +1,30 @@
+/* ComingSoon.css */
+
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .coming-soon-text {
+    font-size: 6rem; /* Adjust font size */
+    color: #333; /* Adjust color */
+  }
+  
+  .dot-animation {
+    animation: dot-animation 1s infinite; /* Example animation */
+  }
+  
+  @keyframes dot-animation {
+    0%, 20% {
+      content: ".";
+    }
+    40% {
+      content: "..";
+    }
+    60% {
+      content: "...";
+    }
+  }
+ 

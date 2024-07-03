@@ -1,0 +1,41 @@
+.homepagemain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #faebd7;
+    min-height: 100vh;
+  }
+  
+  .homepagebox {
+    background-color: #696969;
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .homepagebox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .homepagebox h1 a {
+    text-decoration: none;
+    color: #faebd7;
+    font-size: 45px;
+    font-weight: bold;
+    transition: color 1.5s;
+  }
+  
+  .homepagebox h1 a:hover {
+    color: #beaf97;
+  }
+  

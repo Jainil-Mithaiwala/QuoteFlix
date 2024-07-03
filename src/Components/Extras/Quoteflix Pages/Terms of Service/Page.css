@@ -1,0 +1,43 @@
+.TermsOfService {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+.TermsOfServicebox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.TermsOfServiceheadding {
+  font-size: 25px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.TermsOfServiceul {
+  list-style-type: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.TermsOfServiceli {
+  text-align: start;
+  color: #fff;
+}

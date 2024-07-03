@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.Heading .quotebox {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes l4 {
+    to {
+        clip-path: inset(0 -1ch 0 0);
+    }
+}
+
+.Heading {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bn32 {
+    border-color: dimgray;
+    padding: 8px 30px;
+    cursor: pointer;
+    color: dimgray;
+    background-image: linear-gradient(45deg, transparent 50%, dimgray 50%);
+    background-position: 25%;
+    background-size: 400%;
+    -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+    border-radius: 10px;
+}
+
+.bn32:hover {
+    color: antiquewhite;
+    background-position: 100%;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomquotescopybtn {
+    margin-top: 20px;
+}
+
+.quotebox {
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: dimgray;
+    border-radius: 15px;
+    font-size: 20px;
+    animation: colors 2s infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-color: antiquewhite;
+        color: dimgray;
+    }
+
+    50% {
+        background-color: dimgray;
+        color: antiquewhite;
+    }
+
+    100% {
+        background-color: antiquewhite;
+        color: dimgray;
+    }
+}
+
+.homecontainer{
+    display: flex;
+}
+
+.homecontainer {
+    display: flex;
+  }
+  
+  .container1,
+  .container3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container2 {
+    flex: 3.5;
+  }
+  
+  .container1,
+  .container3,
+  .container2 {
+    padding: 20px;
+  }
+  
+  .container1 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+   .homecategories {
+    margin-bottom: 10px;
+    color: antiquewhite;
+    background-color: dimgray;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+  }
+  
+  .homecategories:hover {
+    color: #d0d0cf;
+  }
+  
+  .homecategories a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+  
+  .homecategories a:hover {
+    color: #ac9898;
+  }
+  
+.loaderhome {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    color: antiquewhite;
+    font-size: 20px;
+    clip-path: inset(0 3ch 0 0);
+    animation: l4 1s steps(4) infinite;
+}
+
+.loaderhome:before {
+    content: "Loading...";
+}
+
+@keyframes l4 {
+    to {
+        clip-path: inset(0 -1ch 0 0);
+    }
+}

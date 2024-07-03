@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: antiquewhite;
+}
+
+.imgbrand{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-message{
+  color: red;
+}
+
+.logo{
+	height: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.profileupdatewrapper{
+  width: auto;
+  height: auto;
+  background:dimgray;
+  padding: 0px 30px 40px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.title{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.input_field{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 100%;
+  padding: 12px;
+  padding-left: 30px;
+  background: #eeeeee;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid black;
+}
+
+.btn{
+	text-align: center;
+}
+
+.input{
+	border-radius: 10px;
+}
+
+.logintext{
+	margin-top: 20px;
+}
+
+.loginlink::after{
+	color: antiquewhite;
+}
+.loginlink:hover{
+	color: antiquewhite;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profileupdatesuccess-message{
+  color: greenyellow;
+  margin: 10px 0px 10px 25px ;
+}
+
+.profileupdateerror-message{
+  margin: 10px 0px 10px 25px ;
+  color: red;
+}
+.profileUpdatebutton {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 30%;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .profileUpdatebutton:hover {
+      background-color: dimgray; 
+      color: antiquewhite; 
+      border: 2px solid antiquewhite;
+    }

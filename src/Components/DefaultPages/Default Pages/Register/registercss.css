@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body{
+  background: antiquewhite;
+}
+
+.imgbrand{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.logo{
+	height: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.wrapper{
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  background:dimgray;
+  padding: 0px 30px 40px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.title{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+
+.input_field{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 100%;
+  padding: 12px;
+  padding-left: 30px;
+  background: #eeeeee;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid black;
+}
+
+.success-message{
+  color: #00ff00;
+}
+
+.btn{
+	text-align: center;
+}
+
+.button {
+	text-decoration: none;
+	padding: 12px;
+	border-radius: 25px;
+	width: 55%;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: antiquewhite;
+	color: black;
+	border: 2px solid black;
+  }
+
+.button:hover {
+	background-color: dimgray; 
+	color: antiquewhite; 
+	border: 2px solid antiquewhite;
+  }
+
+.input{
+	border-radius: 10px;
+}
+
+.loginlink{
+    color: antiquewhite;
+    font-size: 15px ;
+}
+
+.loginlink:hover{
+  color: antiquewhite;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+}

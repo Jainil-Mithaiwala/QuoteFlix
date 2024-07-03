@@ -1,0 +1,112 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__copyright,
+.footer__social,
+.footer__subscribe,
+.footer__attribution,
+.footer__feedback,
+.footer__faq {
+  margin-bottom: 20px;
+}
+
+.footer__social-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer__subscribe-form {
+  display: flex;
+}
+
+.footer__subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer__subscribe-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.footer__attribution a,
+.footer__feedback a,
+.footer__faq a {
+  text-decoration: underline;
+}
+
+.linkdin1{
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  transition: color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.linkdin1:hover{
+  color: #0077b5;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #e1ecf4;
+}
+
+.github{
+  color: #fff;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 3px;
+  transition: color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out; 
+}
+
+.github:hover{
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.instagram{
+  color: #fff;
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.instagram:hover{
+  color: #e1306c;
+  background-color: #fce3eb;
+  padding: 5px;
+  border-radius: 3px;
+}

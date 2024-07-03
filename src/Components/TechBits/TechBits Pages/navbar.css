@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: dimgray;
+  color: white;
+  padding: 0 30px 0 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  padding: 0 12px;
+}
+
+.navbatitems {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbatitems:hover{
+  background-color: #4d4242;
+  padding: 10px;
+  color: antiquewhite;
+  border-radius: 8px;
+}
+
+.navbar select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar select option {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.navbar .brand img {
+  height: 45px;
+  margin-top: 10px;
+  margin-left: -12px;
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.navbar select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none;
+}
+
+.userloginbtn{
+  margin: 67%;
+}
+
+
+.quoteflixbutton {
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  background-color: dimgrey;
+  border: dimgray;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bar-item {
+  padding: 8px 16px;
+  display: block;
+  float: none;
+  width: 200px;
+  text-align: center;
+
+}
+
+.bar-item:hover {
+  background-color: #4d4242;
+  color: antiquewhite;
+  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content .bar-item {
+  display: block;
+}
+
+.quoteflix-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bar-block {
+  width: max-content;
+  margin-top: 11px;
+}
+
+.card-4 {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 4px 8px rgba(0,0,0,0.2);
+}
